@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@700&display=swap');
 
 *,*::before,*::after{
     margin: 0;
@@ -9,6 +10,8 @@
 body{
     font-family: Space Mono;
     font-size: 10px;
+    color: #333333;
+;
 }
 
 .header{
@@ -40,5 +43,39 @@ body{
 
 .img{
     max-width: 90%;
+}
+
+.col__title{
+    font-family: 'Space Mono', monospace;
+    font-size: 3.2rem;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+}
+
+.col{
+    margin: 1.8em auto;
+    padding: 0.2em;
+}
+
+.col__text{
+    font-family: 'Space Mono', monospace;
+    font-size: 1rem;
+    color: #4F4F4F;
+    margin: 1.8em auto;
+    line-height: 20px;
+    letter-spacing: -0.035em;   
+}
+
+.btn{
+    font-family: 'Space Mono', monospace;
+    background-color: #333333;
+    font-weight: normal;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+    margin: 1.8em auto;
+    padding: 1.5em 2em;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
