@@ -60,6 +60,7 @@ body{
 .col__text{
     font-family: 'Space Mono', monospace;
     font-size: 1rem;
+    font-weight: normal;
     color: #4F4F4F;
     margin: 1.8em auto;
     line-height: 20px;
@@ -77,5 +78,31 @@ body{
     padding: 1.5em 2em;
     text-transform: uppercase;
     cursor: pointer;
+}
+
+@media(min-width: 600px){
+    .container{
+        margin-top: 1.5em;
+        max-width: 95%;
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .col{
+        width: 80%;
+    }
+    .img{
+        max-width: 85%;
+    }
+    .col__title{
+        font-size: 3.8rem;
+    }
+    .col__text{
+        font-size: 2rem;
+        line-height: 36px;
+    }
+
 }
 
