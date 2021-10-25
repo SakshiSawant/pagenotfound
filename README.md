@@ -29,8 +29,7 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+
 
 <!-- OVERVIEW -->
 
@@ -42,7 +41,7 @@
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [HTML and CSS with mobile first approach]
+- HTML and CSS with mobile first approach
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
